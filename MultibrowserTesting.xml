@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="compatibilityTesting">
+
+  <test name="Test1_Chrome">
+  <parameter name="browserName" value="Chrome">
+  <classes>
+    <class name="TestNG.ex1_multiple_browser"/>
+  </classes>
+  </parameter>
+  </test> <!-- Test -->
+  
+   <test name="Test2_FireFox">
+  <parameter name="browserName" value="FireFox">
+  <classes>
+    <class name="TestNG.ex1_multiple_browser"/>
+  </classes>
+  </parameter>
+  </test> <!-- Test -->
+  
+   <test name="Test3_Edge">
+  <parameter name="browserName" value="Edge">
+  <classes>
+    <class name="TestNG.ex1_multiple_browser"/>
+  </classes>
+  </parameter>
+  </test> <!-- Test -->
+  
+
+</suite> <!-- compatibilityTesting -->
